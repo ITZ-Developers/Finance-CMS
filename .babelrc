@@ -1,0 +1,17 @@
+{
+	"presets": [
+		"@babel/preset-react",
+		"@babel/preset-env"
+	],
+	"plugins": [
+		[
+			"react-intl-auto",
+			{
+				"removePrefix": "src/",
+				"useKey": true,
+				"filebase": true,
+				"includeExportName": true
+			}
+		]
+	]
+}

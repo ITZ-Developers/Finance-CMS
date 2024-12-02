@@ -1,0 +1,8 @@
+.custom-div {
+    cursor: pointer;
+    text-decoration: none;
+    color: #1890ff;
+    &:hover {
+      color: #69b1ff;
+    }
+  }

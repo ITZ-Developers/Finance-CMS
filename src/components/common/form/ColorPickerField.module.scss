@@ -1,0 +1,29 @@
+@import "@assets/scss/global";
+
+.color-picker{
+    .color {
+        border-radius: 2px,
+    }
+
+    .swatch{
+        padding: 4px;
+        background-color: #fff;
+        border-radius: 6px;
+        box-shadow: 0 2px 0 rgb(5 145 255 / 10%);
+        cursor: pointer;
+        width: 60px;
+    }
+
+    .popover{
+        position: absolute;
+        z-index: 2;
+    }
+
+    .cover{
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+}

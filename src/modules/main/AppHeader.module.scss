@@ -1,0 +1,36 @@
+@import "@assets/scss/global";
+
+.app-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    box-shadow: 4px 4px 40px 0 rgba(0,0,0,.05);
+    z-index: 1;
+
+    .icon-collapse {
+        padding: 0 22px;
+        height: 64px;
+        cursor: pointer;
+        transition: all .3s,padding 0s;
+        font-size: 20px;
+        flex-shrink: 0;
+
+        &:hover {
+            background-color: rgba(0, 0, 0, .025);
+        }
+
+        .trigger {
+            font-size: 22px;
+        }
+    }
+
+    .right-menu {
+        flex: 1;
+        justify-content: flex-end;
+
+        [role='menuitem'] {
+            outline: none !important;
+        }
+    }
+}

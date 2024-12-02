@@ -1,0 +1,6 @@
+REACT_APP_API = https://fm-api.developteam.net/
+REACT_APP_ENV = beta
+GENERATE_SOURCEMAP = false
+CI = false
+IMAGE_INLINE_SIZE_LIMIT = 0
+REACT_APP_ENABLE_EXPOSURE = true

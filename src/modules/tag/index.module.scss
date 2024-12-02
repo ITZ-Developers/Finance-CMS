@@ -1,0 +1,18 @@
+.custom-textarea {
+    border: none !important; /* Xóa border thông thường */
+    box-shadow: none !important; /* Xóa border khi nhấn vào */
+    outline: none !important; /* Xóa outline khi nhấn vào */
+  }
+
+  .tag {
+    .ant-color-picker-trigger {
+      border: none; /* Remove border */
+      width: 200px; /* Customize width */
+      height: 40px; /* Customize height */
+  }
+  
+  .ant-color-picker-trigger .ant-color-picker-trigger-color {
+      width: 100%;
+      height: 100%; /* Make internal color part longer */
+  }
+  }

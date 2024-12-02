@@ -1,0 +1,39 @@
+
+.cursorPoint {
+    cursor: pointer;
+}
+.customCheckbox {
+    margin-top: 30px;
+    :global .ant-form-item-label {
+        white-space: nowrap !important;
+        display: flex !important;
+        width: 200px !important;
+        padding: 0 !important;
+    }
+    :global .ant-form-item-row {
+        display: flex !important;
+        flex-direction: row-reverse !important;
+        flex-wrap: nowrap !important;
+    }
+}
+
+.row-week {
+    background-color: rgb(255, 144, 144);
+    // &:hover{
+    //     background-color: #0a067c !important;
+    //     cursor: pointer;
+    // }  
+}
+.row-half-month {
+    background-color: rgb(249, 185, 67);
+}
+.row-month {
+    background-color: rgb(252, 252, 123);
+}
+.base-table {
+    .ant-table-cell-row-hover {
+        cursor: pointer;
+    
+        background-color: #0a067c !important;
+    }
+}

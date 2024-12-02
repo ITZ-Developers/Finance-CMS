@@ -1,0 +1,9 @@
+REACT_APP_API = https://api-fm.thsolution.net/
+REACT_APP_API_MEDIA = https://api-fm.thsolution.net
+REACT_APP_ENV = staging
+GENERATE_SOURCEMAP = false
+CI = false
+IMAGE_INLINE_SIZE_LIMIT = 0
+REACT_APP_ENABLE_EXPOSURE = true
+REACT_APP_USERNAME = abc_client
+REACT_APP_PASSWORD = abc123

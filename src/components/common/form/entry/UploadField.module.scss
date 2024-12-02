@@ -1,0 +1,34 @@
+@import "@assets/scss/global";
+
+.upload-btn{
+    width: 120px;
+    height: 120px;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.empty-value{
+    border: 1px dashed #d9d9d9;
+}
+
+.border{
+    border: 1px dashed #d9d9d9;
+}
+
+.border-hover{
+    border: 1px dashed #d9d9d9;
+
+    :hover{
+        color: #ffb429;
+    }
+}
+
+.image-text{
+    position: absolute;
+    color: black;
+    padding: 5px 7px;
+    background-color: #C3C3C2;
+    border-radius: 15px;
+}

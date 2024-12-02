@@ -1,0 +1,16 @@
+@import "@assets/scss/global";
+
+.app-content {
+    height: calc(100vh - 64px);
+    overflow-y: auto;
+
+    .wrapper {
+        min-height: calc(100vh - 128px);
+    }
+}
+
+.app-footer {
+    background: #e7e7e7;
+    text-align: center;
+    line-height: 16px;
+}

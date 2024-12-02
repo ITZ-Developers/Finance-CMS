@@ -1,0 +1,34 @@
+@import '@assets/scss/global';
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &[data-collapsed='true'] {
+        margin-top: 5px;
+        height: 26px;
+        padding: 4px;
+        img {
+            border-radius: 4px;
+            width: 100%;
+        }
+    }
+
+    &[data-collapsed='false'] {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 8px;
+        height: 100px;
+        img {
+            border-radius: 10px;
+            width: 100%;
+        }
+    }
+}
+
+.menu {
+    [role='menuitem']{
+        outline: none !important;
+    }
+}

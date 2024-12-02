@@ -1,0 +1,28 @@
+@import '@assets/scss/global';
+
+.login-page {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .login-form {
+        width: 360px;
+        box-shadow: 0 0 12px rgb(15 61 145 / 12%);
+        padding: 24px;
+        border-radius: 8px;
+
+        h3 {
+            margin-block-start: 0px;
+        }
+
+        h3,
+        button {
+            text-align: center;
+        }
+
+        center {
+            margin: 1rem 0 0.5rem;
+        }
+    }
+}

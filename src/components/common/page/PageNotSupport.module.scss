@@ -1,0 +1,16 @@
+.page-not-support {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	 > div {
+		 font-size: 18px;
+		 padding: 16px 24px;
+
+		 &:last-child {
+			 border-left: 2px solid var(--body-text-color);
+		 }
+	 }
+}

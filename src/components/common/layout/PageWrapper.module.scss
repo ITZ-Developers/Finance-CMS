@@ -1,0 +1,31 @@
+@import "@assets/scss/global";
+
+.page-wrapper {
+    background-color: #f0f2f5;
+
+    .page-header {
+        padding: 16px 20px;
+
+        .breadcrumb-last {
+            color: #000000d9;
+        }
+
+        .page-title {
+            margin-top: 16px;
+        }
+
+        &.has-tab {
+            padding-bottom: 0;
+        }
+
+        .tab {
+            > [class~='ant-tabs-nav'] {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    .page-content {
+        padding: 0 8px 8px 8px;
+    }
+}

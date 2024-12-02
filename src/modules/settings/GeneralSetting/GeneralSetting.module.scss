@@ -1,0 +1,8 @@
+.custom-div {
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(24, 144, 255);
+    &:hover {
+      text-decoration: underline;
+    }
+  }

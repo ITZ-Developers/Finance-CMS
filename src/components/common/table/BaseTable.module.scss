@@ -1,0 +1,33 @@
+@import "@assets/scss/global";
+
+.base-table {
+    .ant-table-row {
+        td {
+            padding: 4px 8px !important;
+        }
+        .img-col {
+            width: 70px;
+            height: 50px;
+        }
+        .empty-img-col {
+            font-size: 68px;
+            color: #c1c1c1;
+        }
+        .tag-status {
+            width: 80px;
+            display: flex;
+            justify-content: center;
+        }
+    }
+    .ant-table-row:nth-child(odd) td{
+        background-color: #fff;
+    }
+    .ant-table-row:nth-child(even) td{
+        background-color:#f9f9f9;
+    }
+    // .ant-table-cell-row-hover {
+    //     cursor: pointer;
+
+    //     background-color: #0a067c !important;
+    // }
+}

@@ -1,0 +1,29 @@
+@import '@assets/scss/global';
+
+.avatar-uploader {
+    width: fit-content;
+}
+
+.ant-upload {
+    height: 100px;
+    width: 100px;
+    background-color: rgba(204, 204, 204, 0.5);
+    margin: 0;
+    border: none;
+    color: #62b2fc;
+    transition: all 0.5s;
+    span {
+        div {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            span {
+                margin-right: 3px;
+            }
+        }
+    }
+}
+.ant-upload:hover {
+    background-color: #62b2fc;
+    color: #fff;
+}

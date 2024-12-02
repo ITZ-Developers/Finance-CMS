@@ -1,0 +1,22 @@
+.label {
+    display: block;
+    text-transform: lowercase;
+}
+
+.label::first-letter {
+    text-transform: capitalize;
+}
+
+.custom-div {
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(24, 144, 255);
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+.modalDiv {
+  max-height: calc(72vh - 30px) !important;
+  overflow-y: auto;
+}

@@ -1,0 +1,10 @@
+// fix blink cursor in safari
+.field {
+    // > div > span:nth-child(1) {
+    //     margin-left: -12px !important;
+    // }
+
+    input {
+        font-size: 14px !important;
+    }
+}
