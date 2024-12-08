@@ -18,8 +18,6 @@ npm install
 
 ### Starting the application
 
-Start the application
-
 ```sh
 npm start
 ```
